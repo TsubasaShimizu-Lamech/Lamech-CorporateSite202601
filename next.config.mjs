@@ -11,7 +11,6 @@ const nextConfig = {
   },
   output: 'export',
   basePath: process.env.NODE_ENV === 'production' ? '/Lamech-CorporateSite202601' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Lamech-CorporateSite202601/' : '',
   trailingSlash: true,
 }
 
