@@ -69,12 +69,12 @@ export function AboutSection() {
                 <dl className="grid grid-cols-[auto,1fr] gap-x-6 gap-y-2 text-sm">
                   <dt className="text-muted-foreground">社名</dt>
                   <dd className="text-foreground">株式会社Lamech</dd>
-                  <dt className="text-muted-foreground">代表</dt>
-                  <dd className="text-foreground">清水 翼（Tsubasa Shimizu）</dd>
+                  <dt className="text-muted-foreground">代表取締役</dt>
+                  <dd className="text-foreground">清水 翼</dd>
                   <dt className="text-muted-foreground">所在地</dt>
-                  <dd className="text-foreground">奈良県橿原市</dd>
+                  <dd className="text-foreground">奈良県橿原市上品寺町81-16-201</dd>
                   <dt className="text-muted-foreground">事業内容</dt>
-                  <dd className="text-foreground">アプリ開発、システム開発、IT研修</dd>
+                  <dd className="text-foreground">アプリ開発、システム開発、DX支援</dd>
                 </dl>
               </div>
             </div>

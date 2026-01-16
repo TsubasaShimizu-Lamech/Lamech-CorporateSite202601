@@ -23,7 +23,7 @@ export function Footer() {
             <p className="text-background/70 text-sm">
               株式会社Lamech
               <br />
-              〒634-0000 奈良県橿原市
+              〒634-0803 奈良県橿原市上品寺町81-16-201
             </p>
           </div>
 
