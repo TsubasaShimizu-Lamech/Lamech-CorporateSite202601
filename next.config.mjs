@@ -7,6 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/Lamech-CorporateSite202601' : '',
 }
 
 export default nextConfig
