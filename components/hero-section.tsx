@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { imagePath } from "@/lib/utils"
 
 export function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -51,20 +52,20 @@ export function HeroSection() {
       </div>
 
       <div className="absolute top-20 left-10 opacity-5">
-        <Image src="/images/lamech-icon.png" alt="" width={256} height={256} className="w-64 h-64 invert" />
+        <Image src={imagePath("/images/lamech-icon.png")} alt="" width={256} height={256} className="w-64 h-64 invert" />
       </div>
       <div className="absolute bottom-20 right-10 opacity-5">
-        <Image src="/images/lamech-icon.png" alt="" width={384} height={384} className="w-96 h-96 invert" />
+        <Image src={imagePath("/images/lamech-icon.png")} alt="" width={384} height={384} className="w-96 h-96 invert" />
       </div>
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 opacity-[0.03]">
-        <Image src="/images/lamech-icon.png" alt="" width={500} height={500} className="w-[500px] h-[500px] invert" />
+        <Image src={imagePath("/images/lamech-icon.png")} alt="" width={500} height={500} className="w-[500px] h-[500px] invert" />
       </div>
 
       <div className="container mx-auto px-6 py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-on-scroll opacity-0 flex justify-center mb-8">
             <Image
-              src="/images/lamech-icon.png"
+              src={imagePath("/images/lamech-icon.png")}
               alt="Lamech"
               width={96}
               height={112}

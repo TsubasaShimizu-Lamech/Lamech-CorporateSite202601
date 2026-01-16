@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { imagePath } from "@/lib/utils"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -26,15 +27,14 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
+        }`}
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/original.png"
+              src={imagePath("/images/original.png")}
               alt="Lamech"
               width={140}
               height={40}
@@ -49,22 +49,20 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors ${
-                  isScrolled
+                className={`text-sm font-medium transition-colors ${isScrolled
                     ? "text-muted-foreground hover:text-foreground"
                     : "text-primary-foreground/80 hover:text-primary-foreground"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
             ))}
             <Button
               asChild
-              className={`transition-colors ${
-                isScrolled
+              className={`transition-colors ${isScrolled
                   ? "bg-primary hover:bg-primary/90 text-primary-foreground"
                   : "bg-background text-foreground hover:bg-background/90"
-              }`}
+                }`}
             >
               <Link href="#contact">Contact</Link>
             </Button>
@@ -90,11 +88,10 @@ export function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors ${
-                    isScrolled
+                  className={`text-sm font-medium transition-colors ${isScrolled
                       ? "text-muted-foreground hover:text-foreground"
                       : "text-primary-foreground/80 hover:text-primary-foreground"
-                  }`}
+                    }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
@@ -102,11 +99,10 @@ export function Navbar() {
               ))}
               <Button
                 asChild
-                className={`w-fit ${
-                  isScrolled
+                className={`w-fit ${isScrolled
                     ? "bg-primary hover:bg-primary/90 text-primary-foreground"
                     : "bg-background text-foreground hover:bg-background/90"
-                }`}
+                  }`}
               >
                 <Link href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
                   Contact

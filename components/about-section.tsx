@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Quote } from "lucide-react"
+import { imagePath } from "@/lib/utils"
 
 export function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -41,7 +42,7 @@ export function AboutSection() {
             {/* CEO Photo Placeholder */}
             <div className="animate-on-scroll opacity-0">
               <div className="aspect-[4/5] bg-secondary rounded-2xl overflow-hidden relative">
-                <img src="/professional-japanese-businessman-in-navy-suit.jpg" alt="CEO 清水翼" className="w-full h-full object-cover" />
+                <img src={imagePath("/professional-japanese-businessman-in-navy-suit.jpg")} alt="CEO 清水翼" className="w-full h-full object-cover" />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-6">
                   <p className="text-primary-foreground font-bold">清水 翼</p>
                   <p className="text-primary-foreground/80 text-sm">代表取締役</p>
