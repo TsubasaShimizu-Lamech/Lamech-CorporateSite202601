@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
+import { imagePath } from "@/lib/utils"
 
 const footerLinks = [
   { href: "#services", label: "Services" },
@@ -14,11 +16,14 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Logo & Company Info */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground font-bold text-sm">L</span>
-              </div>
-              <span className="font-bold text-lg">Lamech</span>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src={imagePath("/images/lamech-logo-new.png")}
+                alt="Lamech"
+                width={140}
+                height={40}
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-background/70 text-sm">
               株式会社Lamech

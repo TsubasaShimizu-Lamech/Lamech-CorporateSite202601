@@ -34,7 +34,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image
-              src={imagePath("/images/original.png")}
+              src={imagePath("/images/lamech-logo-new.png")}
               alt="Lamech"
               width={140}
               height={40}
@@ -50,8 +50,8 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium transition-colors ${isScrolled
-                    ? "text-muted-foreground hover:text-foreground"
-                    : "text-primary-foreground/80 hover:text-primary-foreground"
+                  ? "text-muted-foreground hover:text-foreground"
+                  : "text-primary-foreground/80 hover:text-primary-foreground"
                   }`}
               >
                 {link.label}
@@ -60,8 +60,8 @@ export function Navbar() {
             <Button
               asChild
               className={`transition-colors ${isScrolled
-                  ? "bg-primary hover:bg-primary/90 text-primary-foreground"
-                  : "bg-background text-foreground hover:bg-background/90"
+                ? "bg-primary hover:bg-primary/90 text-primary-foreground"
+                : "bg-background text-foreground hover:bg-background/90"
                 }`}
             >
               <Link href="#contact">Contact</Link>
@@ -89,8 +89,8 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   className={`text-sm font-medium transition-colors ${isScrolled
-                      ? "text-muted-foreground hover:text-foreground"
-                      : "text-primary-foreground/80 hover:text-primary-foreground"
+                    ? "text-muted-foreground hover:text-foreground"
+                    : "text-primary-foreground/80 hover:text-primary-foreground"
                     }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -100,8 +100,8 @@ export function Navbar() {
               <Button
                 asChild
                 className={`w-fit ${isScrolled
-                    ? "bg-primary hover:bg-primary/90 text-primary-foreground"
-                    : "bg-background text-foreground hover:bg-background/90"
+                  ? "bg-primary hover:bg-primary/90 text-primary-foreground"
+                  : "bg-background text-foreground hover:bg-background/90"
                   }`}
               >
                 <Link href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
