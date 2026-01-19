@@ -40,7 +40,7 @@ export function AboutSection() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* CEO Photo Placeholder */}
-            <div className="animate-on-scroll opacity-0">
+            {/* <div className="animate-on-scroll opacity-0">
               <div className="aspect-[4/5] bg-secondary rounded-2xl overflow-hidden relative">
                 <img src={imagePath("/professional-japanese-businessman-in-navy-suit.jpg")} alt="CEO 清水翼" className="w-full h-full object-cover" />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-6">
@@ -48,7 +48,7 @@ export function AboutSection() {
                   <p className="text-primary-foreground/80 text-sm">代表取締役</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* CEO Message */}
             <div className="animate-on-scroll opacity-0 animation-delay-200">

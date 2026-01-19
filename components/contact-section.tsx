@@ -90,7 +90,7 @@ export function ContactSection() {
                   id="email"
                   type="email"
                   required
-                  placeholder="example@email.com"
+                  placeholder="email@example.com"
                   className="bg-secondary border-border"
                 />
               </div>
