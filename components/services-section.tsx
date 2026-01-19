@@ -25,7 +25,7 @@ const developmentServices = [
   },
 ]
 
-const trainingServices = [
+/* const trainingServices = [
   {
     title: "エンジニア向け研修",
     description: "最新技術のハンズオントレーニングとベストプラクティス習得",
@@ -34,7 +34,7 @@ const trainingServices = [
     title: "非IT人材向け研修",
     description: "ITリテラシー向上とデジタルツール活用スキルの習得支援",
   },
-]
+] */
 
 export function ServicesSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -97,7 +97,7 @@ export function ServicesSection() {
         </div>
 
         {/* Training Services */}
-        <div>
+        {/* <div>
           <h3 className="animate-on-scroll opacity-0 text-xl font-bold text-foreground mb-8 flex items-center gap-3">
             <span className="w-8 h-[2px] bg-accent" />
             Training
@@ -120,7 +120,7 @@ export function ServicesSection() {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
