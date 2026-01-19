@@ -51,7 +51,7 @@ export function AboutSection() {
                 </p>
                 <p>「誠実」と「品質」を何より大切に、お客様と共に歩むパートナーでありたいと考えています。</p>
               </div>
-              <p className="mt-6 text-foreground font-medium">代表取締役　清水 翼</p>
+              <p className="mt-6 text-foreground font-medium">代表取締役  清水 翼</p>
             </div>
 
             <div className="mt-12 grid md:grid-cols-2 gap-8">
@@ -59,11 +59,11 @@ export function AboutSection() {
                 <h4 className="font-bold text-foreground mb-4">会社概要</h4>
                 <dl className="grid grid-cols-[auto,1fr] gap-x-6 gap-y-3 text-sm">
                   <dt className="text-muted-foreground">社名</dt>
-                  <dd className="text-foreground">株式会社Lamech</dd>
+                  <dd className="text-foreground">株式会社Lamech(レメク)</dd>
                   <dt className="text-muted-foreground">代表</dt>
                   <dd className="text-foreground">清水 翼（Tsubasa Shimizu）</dd>
                   <dt className="text-muted-foreground">所在地</dt>
-                  <dd className="text-foreground">奈良県橿原市</dd>
+                  <dd className="text-foreground">〒634-0803 奈良県橿原市上品寺町81-16-201</dd>
                   <dt className="text-muted-foreground">事業内容</dt>
                   <dd className="text-foreground">アプリ開発、システム開発、IT研修</dd>
                 </dl>
