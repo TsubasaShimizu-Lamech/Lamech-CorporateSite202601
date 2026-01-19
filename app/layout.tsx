@@ -14,7 +14,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Lamech(レメク) | 信頼できるITパートナー",
   description:
-    "誰よりも丁寧な対話で、ITの「難しい」を「価値」に変える。アプリ開発・IT研修を通じて組織の自走を支える伴走型ITパートナーです。",
+    "誰よりも丁寧な対話で、ITの「難しい」を「価値」に変える。アプリ開発を通じて組織の自走を支える伴走型ITパートナーです。",
   generator: "v0.app",
   icons: {
     icon: imagePath("/images/favicon.ico"),

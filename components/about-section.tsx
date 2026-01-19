@@ -65,13 +65,13 @@ export function AboutSection() {
                   <dt className="text-muted-foreground">所在地</dt>
                   <dd className="text-foreground">〒634-0803 奈良県橿原市上品寺町81-16-201</dd>
                   <dt className="text-muted-foreground">事業内容</dt>
-                  <dd className="text-foreground">アプリ開発、システム開発、IT研修</dd>
+                  <dd className="text-foreground">アプリ開発、システム開発</dd>
                 </dl>
               </div>
               <div className="bg-background rounded-xl p-6 border border-border">
                 <h4 className="font-bold text-foreground mb-4">代表プロフィール</h4>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  元公務員として行政機関で勤務した後、IT業界へ転身。現場視点を大切にしたシステム開発と、わかりやすいIT研修に定評がある。Flutter、Python、AWSを中心とした技術スタックで、官公庁・企業のDX推進をサポート。
+                  元公務員として行政機関で勤務した後、IT業界へ転身。現場視点を大切にしたシステム開発に定評がある。Flutter、Python、AWSを中心とした技術スタックで、官公庁・企業のDX推進をサポート。
                 </p>
               </div>
             </div>

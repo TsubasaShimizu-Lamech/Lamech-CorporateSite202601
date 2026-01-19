@@ -24,7 +24,7 @@ const caseStudies = [
     category: "Internal DX",
     title: "社内DX支援",
     description: "業務プロセスの可視化から改善提案、ツール導入まで。現場に寄り添ったDX推進を実現。",
-    tags: ["業務改善", "研修", "ツール導入"],
+    tags: ["業務改善", "DX推進", "ツール導入"],
   },
 ]
 
