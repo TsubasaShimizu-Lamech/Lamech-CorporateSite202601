@@ -32,7 +32,7 @@ export function AboutSection() {
             About
           </p>
           <h2 className="animate-on-scroll opacity-0 animation-delay-100 text-2xl md:text-3xl font-bold text-foreground text-balance">
-            会社について
+            Lamech-レメク-について
           </h2>
         </div>
 
