@@ -6,7 +6,5 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const imagePath = (path: string) => {
-  return process.env.NODE_ENV === 'production'
-    ? `/Lamech-CorporateSite202601${path}`
-    : path
+  return path
 }
