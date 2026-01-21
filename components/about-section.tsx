@@ -66,6 +66,8 @@ export function AboutSection() {
                   <dd className="text-foreground">〒634-0803 奈良県橿原市上品寺町81-16-201</dd>
                   <dt className="text-muted-foreground">事業内容</dt>
                   <dd className="text-foreground">アプリ開発、システム開発</dd>
+                  <dt className="text-muted-foreground">電話番号</dt>
+                  <dd className="text-foreground">070-9187-3180</dd>
                 </dl>
               </div>
               <div className="bg-background rounded-xl p-6 border border-border">

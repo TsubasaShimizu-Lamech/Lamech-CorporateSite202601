@@ -29,6 +29,8 @@ export function Footer() {
               株式会社Lamech
               <br />
               〒634-0803 奈良県橿原市上品寺町81-16-201
+              <br />
+              TEL: 070-9187-3180
             </p>
           </div>
 
