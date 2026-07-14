@@ -28,7 +28,7 @@ export function Footer() {
             <p className="text-background/70 text-sm">
               株式会社Lamech
               <br />
-              〒634-0803 奈良県橿原市上品寺町81-16-201
+              〒631-0817 奈良県奈良市西大寺北町1-2-4 HSビル
               <br />
               TEL: 070-9187-3180
             </p>

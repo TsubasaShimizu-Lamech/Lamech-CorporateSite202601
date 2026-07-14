@@ -63,7 +63,7 @@ export function AboutSection() {
                   <dt className="text-muted-foreground">代表</dt>
                   <dd className="text-foreground">清水 翼（Tsubasa Shimizu）</dd>
                   <dt className="text-muted-foreground">所在地</dt>
-                  <dd className="text-foreground">〒634-0803 奈良県橿原市上品寺町81-16-201</dd>
+                  <dd className="text-foreground">〒631-0817 奈良県奈良市西大寺北町1-2-4 HSビル</dd>
                   <dt className="text-muted-foreground">事業内容</dt>
                   <dd className="text-foreground">アプリ開発、システム開発</dd>
                   <dt className="text-muted-foreground">電話番号</dt>
